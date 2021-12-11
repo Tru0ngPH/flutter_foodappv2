@@ -19,16 +19,17 @@ const List<Category> fakeCategories = [
 var fakeFoods = [
   //array of food's objects
   Food(
-      name: "sushi - 寿司",
+      name: "sushi",
       urlImage:
-          "https://upload.wikimedia.org/wikipedia/commons/c/cf/Salmon_Sushi.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/1200px-Sushi_platter.jpg",
       duration: const Duration(minutes: 25),
       complexity: Complexity.medium,
       ingredients: ['Sushi-meshi', 'Nori', 'Condiments'],
       categoryId: 1),
   Food(
       name: "Pizza tonda",
-      urlImage: "https://www.angelopo.com/filestore/images/pizza-tonda.jpg",
+      urlImage:
+          "https://blog.giallozafferano.it/ricettepanedolci/wp-content/uploads/2020/04/pizza-rotonda-in-teglia-1.jpeg",
       duration: const Duration(minutes: 15),
       complexity: Complexity.hard,
       ingredients: [
